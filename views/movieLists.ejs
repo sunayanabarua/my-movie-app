@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>
+    Movie List
+  </title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+  <div class="list-div">
+    <%for(var i=0;i<(Object.keys(movieList.results).length);i++){%>
+    <div class="col-sm-3">
+      <div id="list-card" class="card" name="<%=movieList.results[i].id%>">
+        <a href="/movie/<%=movieList.results[i].id%>">
+          <div id="list-top" class="card-top">
+            <h2 class="card-title"><%=movieList.results[i].title%></h2>
+          </div>
+          <div id="list-body" class="card-body">
+            <img class="card-img-top" src="https://image.tmdb.org/t/p/w185/<%=movieList.results[i].poster_path%>" alt="Card movie image">
+            <p class="card-text">Rating: <%=movieList.results[i].vote_average%></p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <%}%>
+  </div>
+</body>
+
+</html>

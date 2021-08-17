@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Movie App</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <!-- Navbar with login -->
+    <section class="navBar" id="navBar">
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a id="navBar-brand" class="navbar-brand">My Movie App</a>
+          <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul id="navbar-ul" class="d-flex flex-row-reverse">
+              <li class="nav-item">
+                <a class="nav-link" href="#upcoming-section">Upcoming</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#now-playing">Now Playing</a>
+              </li>
+              <li class="nav-link">
+                <a class="nav-link" href="#genre">Genre</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <hr />
+    <!-- Search movie by name -->
+    <section class="search-btn">
+      <div class="row">
+        <form class="search" action="/" method="post">
+          <input id="input-search" class="form-control mr-sm-2" type="search" name="searchInput" placeholder="Search movie..." value="">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </form>
+      </div>
+    </section>
+
+    <!--Now Playing part in carousal -->
+
+    <!-- <section id="now-playing" class="container">
+      <div id="carousel-nowPlaying" class="carousel slide" data-ride="carousel"> -->
+        <!-- Indicators -->
+        <!-- <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol> -->
+        <!-- Wrapper for slides -->
+        <!-- <div class="carousel-inner">
+          <div class="item">
+            <a href="/movie/<%=nowPlayingList.results[0].id%>">
+              <img src="https://image.tmdb.org/t/p/w185/<%=nowPlayingList.results[0].poster_path%>" style="width:100%;"/></a>
+            <div class="carousel-caption">
+              <h3><%=nowPlayingList.results[0].title%></h3>
+              <p>Just Kitten Around</p>
+            </div>
+          </div>
+        </div> -->
+        <!-- Left and right controls -->
+        <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section> -->
+
+    <!-- upcoming movies -->
+    <section id="upcoming-section">
+      <div class="row" id="upcoming-div">
+        <h2 id="section-title">Upcoming Movies</h2>
+        <%for(var i=0; i<4; i++){%>
+        <div id="upcoming-movie" class="col-sm-3">
+          <div class="card" name="<%=upcomingList.results[i].id%>">
+            <a href="/movie/<%=upcomingList.results[i].id%>">
+              <img class="card-img-top" src="https://image.tmdb.org/t/p/w185/<%=upcomingList.results[i].poster_path%>" alt="Upcoming Card Image">
+            </a>
+            <div class="card-body">
+              <h3><%=upcomingList.results[i].title%></h3>
+              <h5>Rating: <%=upcomingList.results[i].vote_average%></h4>
+            </div>
+          </div>
+        </div>
+        <%}%>
+      </div>
+    </section>
+
+    <!-- Popular Movies -->
+    <section id="popular-section">
+      <div class="row" id="popular-div">
+        <h2 id="section-title">Popular Movies</h2>
+        <%for(var i=0; i<4; i++){%>
+        <div id="popular" class="col-sm-3">
+          <div class="card" name="<%=popularList.results[i].id%>">
+            <a href="/movie/<%=popularList.results[i].id%>">
+              <img class="card-img-top" src="https://image.tmdb.org/t/p/w185/<%=popularList.results[i].poster_path%>" alt="Now Playing Card Image">
+            </a>
+            <div class="card-body">
+              <h3><%=popularList.results[i].title%></h3>
+              <h5>Rating: <%=popularList.results[i].vote_average%></h4>
+            </div>
+          </div>
+        </div>
+        <%}%>
+      </div>
+    </section>
+
+    <!-- Top Rated List -->
+    <section id="top-rated-section">
+      <div class="row" id="top-rated-div">
+        <h2 id="section-title">Top Rated Movies</h2>
+        <%for(var i=0; i<4; i++){%>
+        <div id="top-rated" class="col-sm-3">
+          <div class="card" name="<%=topRatedList.results[i].id%>">
+            <a href="/movie/<%=topRatedList.results[i].id%>">
+              <img class="card-img-top" src="https://image.tmdb.org/t/p/w185/<%=topRatedList.results[i].poster_path%>" alt="Now Playing Card Image">
+            </a>
+            <div class="card-body">
+              <h3><%=topRatedList.results[i].title%></h3>
+              <h5>Rating: <%=topRatedList.results[i].vote_average%></h4>
+            </div>
+          </div>
+        </div>
+        <%}%>
+      </div>
+    </section>
+
+    <!-- genre -->
+
+
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

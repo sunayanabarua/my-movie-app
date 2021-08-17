@@ -1,0 +1,664 @@
+"https://api.themoviedb.org/3/genre/movie/list?api_key=" + api_key + "&language=en-US";
+
+{ id: 28, name: 'Action' },
+    { id: 12, name: 'Adventure' },
+    { id: 16, name: 'Animation' },
+    { id: 35, name: 'Comedy' },
+    { id: 80, name: 'Crime' },
+    { id: 99, name: 'Documentary' },
+    { id: 18, name: 'Drama' },
+    { id: 10751, name: 'Family' },
+    { id: 14, name: 'Fantasy' },
+    { id: 36, name: 'History' },
+    { id: 27, name: 'Horror' },
+    { id: 10402, name: 'Music' },
+    { id: 9648, name: 'Mystery' },
+    { id: 10749, name: 'Romance' },
+    { id: 878, name: 'Science Fiction' },
+    { id: 10770, name: 'TV Movie' },
+    { id: 53, name: 'Thriller' },
+    { id: 10752, name: 'War' },
+    { id: 37, name: 'Western' }
+  ]
+
+{
+  adult: false,
+  backdrop_path: '/620hnMVLu6RSZW6a5rwO8gqpt0t.jpg',
+  genre_ids: [ 16, 35, 10751, 14 ],
+  id: 508943,
+  original_language: 'en',
+  original_title: 'Luca',
+  overview: 'Luca and his best friend Alberto experience an unforgettable summer on the Italian Riviera. But all the fun is threatened by a deeply-held secret: they are sea monsters from another world just below the water’s surface.',
+  popularity: 3040.964,
+  poster_path: '/jTswp6KyDYKtvC52GbHagrZbGvD.jpg',
+  release_date: '2021-06-17',
+  title: 'Luca',
+  video: false,
+  vote_average: 8.1,
+  vote_count: 3054
+}
+{
+  adult: false,
+  backdrop_path: '/5HjzYTihkH7EvOWSE7KcsF6pBMM.jpg',
+  genre_ids: [ 10751, 35, 12, 16, 14 ],
+  id: 522478,
+  original_language: 'en',
+  original_title: 'Peter Rabbit 2: The Runaway',
+  overview: 'Bea, Thomas, and the rabbits have created a makeshift family, but despite his best efforts, Peter can’t seem to shake his mischievous reputation. Adventuring out of the garden, Peter finds himself in a world where his mischief is appreciated, but when his family risks everything to come looking for him, Peter must figure out what kind of bunny he wants to be.',
+  popularity: 1863.561,
+  poster_path: '/cycDz68DtTjJrDJ1fV8EBq2Xdpb.jpg',
+  release_date: '2021-03-25',
+  title: 'Peter Rabbit 2: The Runaway',
+  video: false,
+  vote_average: 7.4,
+  vote_count: 180
+}
+{
+  adult: false,
+  backdrop_path: '/3RMbkXS4ocMmoJyAD3ZsWbm32Kx.jpg',
+  genre_ids: [ 28, 12, 18, 878, 53 ],
+  id: 615658,
+  original_language: 'en',
+  original_title: 'Awake',
+  overview: 'After a sudden global event wipes out all electronics and takes away humankind’s ability to sleep, chaos quickly begins to consume the world. Only Jill, an ex-soldier with a troubled past, may hold the key to a cure in the form of her own daughter. The question is, can Jill safely deliver her daughter and save the world before she herself loses her mind.',
+  popularity: 2623.607,
+  poster_path: '/1OTa0PfX2axMY8f9tFRSzESUgkC.jpg',
+  release_date: '2021-06-09',
+  title: 'Awake',
+  video: false,
+  vote_average: 6.1,
+  vote_count: 519
+}
+{
+  adult: false,
+  backdrop_path: '/ok7RdHhVngnwkvKj09tvtOvypG.jpg',
+  genre_ids: [ 80, 18, 53, 9648 ],
+  id: 649409,
+  original_language: 'en',
+  original_title: 'No Sudden Move',
+  overview: "A group of criminals are brought together under mysterious circumstances and have to work together to uncover what's really going on when their simple job goes completely sideways.",
+  popularity: 1313.094,
+  poster_path: '/34BmdJkdvRweC3xJJFlOFQ2IbYc.jpg',
+  release_date: '2021-06-24',
+  title: 'No Sudden Move',
+  video: false,
+  vote_average: 6.7,
+  vote_count: 109
+}
+{
+  adult: false,
+  backdrop_path: '/keIxh0wPr2Ymj0Btjh4gW7JJ89e.jpg',
+  genre_ids: [ 28, 12, 53, 878 ],
+  id: 497698,
+  original_language: 'en',
+  original_title: 'Black Widow',
+  overview: 'Natasha Romanoff, also known as Black Widow, confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger.',
+  popularity: 6952.15,
+  poster_path: '/qAZ0pzat24kLdO3o8ejmbLxyOac.jpg',
+  release_date: '2021-07-07',
+  title: 'Black Widow',
+  video: false,
+  vote_average: 8,
+  vote_count: 3002
+}
+{
+  adult: false,
+  backdrop_path: '/tehpKMsls621GT9WUQie2Ft6LmP.jpg',
+  genre_ids: [ 12, 53, 28, 27, 37 ],
+  id: 602223,
+  original_language: 'en',
+  original_title: 'The Forever Purge',
+  overview: 'All the rules are broken as a sect of lawless marauders decides that the annual Purge does not stop at daybreak and instead should never end as they chase a group of immigrants who they want to punish because of their harsh historical past.',
+  popularity: 6705.478,
+  poster_path: '/uHA5COgDzcxjpYSHHulrKVl6ByL.jpg',
+  release_date: '2021-06-30',
+  title: 'The Forever Purge',
+  video: false,
+  vote_average: 7.7,
+  vote_count: 320
+}
+{
+  adult: false,
+  backdrop_path: '/keIxh0wPr2Ymj0Btjh4gW7JJ89e.jpg',
+  genre_ids: [ 28, 12, 53, 878 ],
+  id: 497698,
+  original_language: 'en',
+  original_title: 'Black Widow',
+  overview: 'Natasha Romanoff, also known as Black Widow, confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger.',
+  popularity: 6952.15,
+  poster_path: '/qAZ0pzat24kLdO3o8ejmbLxyOac.jpg',
+  release_date: '2021-07-07',
+  title: 'Black Widow',
+  video: false,
+  vote_average: 8,
+  vote_count: 3002
+}
+{
+  adult: false,
+  backdrop_path: '/tehpKMsls621GT9WUQie2Ft6LmP.jpg',
+  genre_ids: [ 12, 53, 28, 27, 37 ],
+  id: 602223,
+  original_language: 'en',
+  original_title: 'The Forever Purge',
+  overview: 'All the rules are broken as a sect of lawless marauders decides that the annual Purge does not stop at daybreak and instead should never end as they chase a group of immigrants who they want to punish because of their harsh historical past.',
+  popularity: 6705.478,
+  poster_path: '/uHA5COgDzcxjpYSHHulrKVl6ByL.jpg',
+  release_date: '2021-06-30',
+  title: 'The Forever Purge',
+  video: false,
+  vote_average: 7.7,
+  vote_count: 320
+}
+{
+  adult: false,
+  backdrop_path: '/fPGeS6jgdLovQAKunNHX8l0avCy.jpg',
+  genre_ids: [ 28, 53, 10752 ],
+  id: 567189,
+  original_language: 'en',
+  original_title: "Tom Clancy's Without Remorse",
+  overview: 'An elite Navy SEAL uncovers an international conspiracy while seeking justice for the murder of his pregnant wife.',
+  popularity: 824.194,
+  poster_path: '/rEm96ib0sPiZBADNKBHKBv5bve9.jpg',
+  release_date: '2021-04-29',
+  title: "Tom Clancy's Without Remorse",
+  video: false,
+  vote_average: 7.2,
+  vote_count: 1375
+}
+{
+  adult: false,
+  backdrop_path: '/8LHSDyRizQ4kQz5rEHPKyXPvMG3.jpg',
+  genre_ids: [ 16, 10752, 878 ],
+  id: 736069,
+  original_language: 'en',
+  original_title: 'Justice Society: World War II',
+  overview: 'When the Flash finds himself dropped into the middle of World War II, he joins forces with Wonder Woman and her top-secret team known as the Justice Society of America.',
+  popularity: 236.647,
+  poster_path: '/e4REOC6CZW8J6FslA4nRvdQXFXR.jpg',
+  release_date: '2021-04-27',
+  title: 'Justice Society: World War II',
+  video: false,
+  vote_average: 7.8,
+  vote_count: 282
+}
+{
+  adult: false,
+  backdrop_path: '/keIxh0wPr2Ymj0Btjh4gW7JJ89e.jpg',
+  genre_ids: [ 28, 12, 53, 878 ],
+  id: 497698,
+  original_language: 'en',
+  original_title: 'Black Widow',
+  overview: 'Natasha Romanoff, also known as Black Widow, confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger.',
+  popularity: 6952.15,
+  poster_path: '/qAZ0pzat24kLdO3o8ejmbLxyOac.jpg',
+  release_date: '2021-07-07',
+  title: 'Black Widow',
+  video: false,
+  vote_average: 8,
+  vote_count: 3002
+}
+{
+  adult: false,
+  backdrop_path: '/8s4h9friP6Ci3adRGahHARVd76E.jpg',
+  genre_ids: [ 16, 35, 10751, 878 ],
+  id: 379686,
+  original_language: 'en',
+  original_title: 'Space Jam: A New Legacy',
+  overview: "When LeBron and his young son Dom are trapped in a digital space by a rogue A.I., LeBron must get them home safe by leading Bugs, Lola Bunny and the whole gang of notoriously undisciplined Looney Tunes to victory over the A.I.'s digitized champions on the court. It's Tunes versus Goons in the highest-stakes challenge of his life.",
+  popularity: 10021.745,
+  poster_path: '/5bFK5d3mVTAvBCXi5NPWH0tYjKl.jpg',
+  release_date: '2021-07-08',
+  title: 'Space Jam: A New Legacy',
+  video: false,
+  vote_average: 7.9,
+  vote_count: 979
+}
+{
+  adult: false,
+  backdrop_path: '/e0lVsZrD6CPX8pt0QIDK7HDoRpy.jpg',
+  genre_ids: [ 10749, 18 ],
+  id: 785537,
+  original_language: 'tr',
+  original_title: 'Geçen Yaz',
+  overview: "For Deniz, a 16-year-old teenager, this summer is different from the others. Deniz, who goes to his family's summer house every year, falls in love with a young girl named Aslı. Trying to get closer to Aslı, Deniz realizes that a handsome young man, Burak, also likes Aslı.",
+  popularity: 383.406,
+  poster_path: '/s2OLfim4v1WvgTzP0VjuBCISS2L.jpg',
+  release_date: '2021-07-09',
+  title: 'Last Summer',
+  video: false,
+  vote_average: 5.4,
+  vote_count: 14
+}
+{
+  adult: false,
+  backdrop_path: '/4QA7pKpmNgeXkhN1FFIBelHwr6V.jpg',
+  genre_ids: [
+       16, 28, 12,
+       35, 18, 14,
+    10749
+  ],
+  id: 784500,
+  original_language: 'ja',
+  original_title: '劇場版 美少女戦士セーラームーンEternal 前編 - Part 2',
+  overview: 'While under the care of the Outer Sailor Guardians, Hotaru begins to age rapidly. Then, the time comes for all the Sailor Guardians to reunite!',
+  popularity: 263.282,
+  poster_path: '/f91rtk8dODezNLT3grQrELyzFwA.jpg',
+  release_date: '2021-02-11',
+  title: 'Pretty Guardian Sailor Moon Eternal The Movie Part 2',
+  video: false,
+  vote_average: 8.2,
+  vote_count: 67
+}
+{
+  adult: false,
+  backdrop_path: '/8s4h9friP6Ci3adRGahHARVd76E.jpg',
+  genre_ids: [ 16, 35, 10751, 878 ],
+  id: 379686,
+  original_language: 'en',
+  original_title: 'Space Jam: A New Legacy',
+  overview: "When LeBron and his young son Dom are trapped in a digital space by a rogue A.I., LeBron must get them home safe by leading Bugs, Lola Bunny and the whole gang of notoriously undisciplined Looney Tunes to victory over the A.I.'s digitized champions on the court. It's Tunes versus Goons in the highest-stakes challenge of his life.",
+  popularity: 10021.745,
+  poster_path: '/5bFK5d3mVTAvBCXi5NPWH0tYjKl.jpg',
+  release_date: '2021-07-08',
+  title: 'Space Jam: A New Legacy',
+  video: false,
+  vote_average: 7.9,
+  vote_count: 979
+}
+{
+  adult: false,
+  backdrop_path: '/gX5UrH1TLVVBwI7WxplW43BD6Z1.jpg',
+  genre_ids: [ 16, 35, 12, 10751 ],
+  id: 459151,
+  original_language: 'en',
+  original_title: 'The Boss Baby: Family Business',
+  overview: 'The Templeton brothers — Tim and his Boss Baby little bro Ted — have become adults and drifted away from each other. But a new boss baby with a cutting-edge approach and a can-do attitude is about to bring them together again … and inspire a new family business.',
+  popularity: 4074.324,
+  poster_path: '/5dExO5G2iaaTxYnLIFKLWofDzyI.jpg',
+  release_date: '2021-07-01',
+  title: 'The Boss Baby: Family Business',
+  video: false,
+  vote_average: 7.9,
+  vote_count: 773
+}
+{
+  adult: false,
+  backdrop_path: '/tehpKMsls621GT9WUQie2Ft6LmP.jpg',
+  genre_ids: [ 12, 53, 28, 27, 37 ],
+  id: 602223,
+  original_language: 'en',
+  original_title: 'The Forever Purge',
+  overview: 'All the rules are broken as a sect of lawless marauders decides that the annual Purge does not stop at daybreak and instead should never end as they chase a group of immigrants who they want to punish because of their harsh historical past.',
+  popularity: 6705.478,
+  poster_path: '/uHA5COgDzcxjpYSHHulrKVl6ByL.jpg',
+  release_date: '2021-06-30',
+  title: 'The Forever Purge',
+  video: false,
+  vote_average: 7.7,
+  vote_count: 320
+}
+{
+  adult: false,
+  backdrop_path: '/AsqUSUqXrK8JfH8WEQnCXVbIAv6.jpg',
+  genre_ids: [ 878, 53, 27 ],
+  id: 520763,
+  original_language: 'en',
+  original_title: 'A Quiet Place Part II',
+  overview: 'Following the events at home, the Abbott family now face the terrors of the outside world. Forced to venture into the unknown, they realize that the creatures that hunt by sound are not the only threats that lurk beyond the sand path.',
+  popularity: 1392.124,
+  poster_path: '/4q2hz2m8hubgvijz8Ez0T2Os2Yv.jpg',
+  release_date: '2021-05-21',
+  title: 'A Quiet Place Part II',
+  video: false,
+  vote_average: 7.7,
+  vote_count: 2048
+}
+{
+  adult: false,
+  backdrop_path: '/8s4h9friP6Ci3adRGahHARVd76E.jpg',
+  genre_ids: [ 16, 35, 10751, 878 ],
+  id: 379686,
+  original_language: 'en',
+  original_title: 'Space Jam: A New Legacy',
+  overview: "When LeBron and his young son Dom are trapped in a digital space by a rogue A.I., LeBron must get them home safe by leading Bugs, Lola Bunny and the whole gang of notoriously undisciplined Looney Tunes to victory over the A.I.'s digitized champions on the court. It's Tunes versus Goons in the highest-stakes challenge of his life.",
+  popularity: 10021.745,
+  poster_path: '/5bFK5d3mVTAvBCXi5NPWH0tYjKl.jpg',
+  release_date: '2021-07-08',
+  title: 'Space Jam: A New Legacy',
+  video: false,
+  vote_average: 7.9,
+  vote_count: 979
+}
+{
+  adult: false,
+  backdrop_path: '/gX5UrH1TLVVBwI7WxplW43BD6Z1.jpg',
+  genre_ids: [ 16, 35, 12, 10751 ],
+  id: 459151,
+  original_language: 'en',
+  original_title: 'The Boss Baby: Family Business',
+  overview: 'The Templeton brothers — Tim and his Boss Baby little bro Ted — have become adults and drifted away from each other. But a new boss baby with a cutting-edge approach and a can-do attitude is about to bring them together again … and inspire a new family business.',
+  popularity: 4074.324,
+  poster_path: '/5dExO5G2iaaTxYnLIFKLWofDzyI.jpg',
+  release_date: '2021-07-01',
+  title: 'The Boss Baby: Family Business',
+  video: false,
+  vote_average: 7.9,
+  vote_count: 773
+}
+{
+  adult: false,
+  backdrop_path: '/kf456ZqeC45XTvo6W9pW5clYKfQ.jpg',
+  genre_ids: [ 10751, 16, 10402, 35, 18 ],
+  id: 508442,
+  original_language: 'en',
+  original_title: 'Soul',
+  overview: 'Joe Gardner is a middle school teacher with a love for jazz music. After a successful gig at the Half Note Club, he suddenly gets into an accident that separates his soul from his body and is transported to the You Seminar, a center in which souls develop and gain passions before being transported to a newborn child. Joe must enlist help from the other souls-in-training, like 22, a soul who has spent eons in the You Seminar, in order to get back to Earth.',
+  popularity: 416.335,
+  poster_path: '/hm58Jw4Lw8OIeECIq5qyPYhAeRJ.jpg',
+  release_date: '2020-12-25',
+  title: 'Soul',
+  video: false,
+  vote_average: 8.2,
+  vote_count: 6530
+}
+{
+  adult: false,
+  backdrop_path: '/z9ft5HYHzWcasR6SGcgeluxTznB.jpg',
+  genre_ids: [ 10751, 16, 10402, 35, 18 ],
+  id: 335797,
+  original_language: 'en',
+  original_title: 'Sing',
+  overview: 'A koala named Buster recruits his best friend to help him drum up business for his theater by hosting a singing competition.',
+  popularity: 149.996,
+  poster_path: '/lW0kUtXTOVlHTVhDO2VzNBACAHX.jpg',
+  release_date: '2016-11-23',
+  title: 'Sing',
+  video: false,
+  vote_average: 7.1,
+  vote_count: 6112
+}
+{
+  adult: false,
+  backdrop_path: '/keIxh0wPr2Ymj0Btjh4gW7JJ89e.jpg',
+  genre_ids: [ 28, 12, 53, 878 ],
+  id: 497698,
+  original_language: 'en',
+  original_title: 'Black Widow',
+  overview: 'Natasha Romanoff, also known as Black Widow, confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger.',
+  popularity: 6952.15,
+  poster_path: '/qAZ0pzat24kLdO3o8ejmbLxyOac.jpg',
+  release_date: '2021-07-07',
+  title: 'Black Widow',
+  video: false,
+  vote_average: 8,
+  vote_count: 3002
+}
+{
+  adult: false,
+  backdrop_path: '/tehpKMsls621GT9WUQie2Ft6LmP.jpg',
+  genre_ids: [ 12, 53, 28, 27, 37 ],
+  id: 602223,
+  original_language: 'en',
+  original_title: 'The Forever Purge',
+  overview: 'All the rules are broken as a sect of lawless marauders decides that the annual Purge does not stop at daybreak and instead should never end as they chase a group of immigrants who they want to punish because of their harsh historical past.',
+  popularity: 6705.478,
+  poster_path: '/uHA5COgDzcxjpYSHHulrKVl6ByL.jpg',
+  release_date: '2021-06-30',
+  title: 'The Forever Purge',
+  video: false,
+  vote_average: 7.7,
+  vote_count: 320
+}
+{
+  adult: false,
+  backdrop_path: '/70AV2Xx5FQYj20labp0EGdbjI6E.jpg',
+  genre_ids: [ 80, 28, 53 ],
+  id: 637649,
+  original_language: 'en',
+  original_title: 'Wrath of Man',
+  overview: "A cold and mysterious new security guard for a Los Angeles cash truck company surprises his co-workers when he unleashes precision skills during a heist. The crew is left wondering who he is and where he came from. Soon, the marksman's ultimate motive becomes clear as he takes dramatic and irrevocable steps to settle a score.",
+  popularity: 2537.39,
+  poster_path: '/M7SUK85sKjaStg4TKhlAVyGlz3.jpg',
+  release_date: '2021-04-22',
+  title: 'Wrath of Man',
+  video: false,
+  vote_average: 7.8,
+  vote_count: 1454
+}
+{
+  adult: false,
+  backdrop_path: '/xXHZeb1yhJvnSHPzZDqee0zfMb6.jpg',
+  genre_ids: [ 28, 12, 80, 53 ],
+  id: 385128,
+  original_language: 'en',
+  original_title: 'F9',
+  overview: "Dominic Toretto and his crew battle the most skilled assassin and high-performance driver they've ever encountered: his forsaken brother.",
+  popularity: 1861.026,
+  poster_path: '/bOFaAXmWWXC3Rbv4u4uM9ZSzRXP.jpg',
+  release_date: '2021-05-19',
+  title: 'F9',
+  video: false,
+  vote_average: 7.5,
+  vote_count: 654
+}
+{
+  adult: false,
+  backdrop_path: '/tehpKMsls621GT9WUQie2Ft6LmP.jpg',
+  genre_ids: [ 12, 53, 28, 27, 37 ],
+  id: 602223,
+  original_language: 'en',
+  original_title: 'The Forever Purge',
+  overview: 'All the rules are broken as a sect of lawless marauders decides that the annual Purge does not stop at daybreak and instead should never end as they chase a group of immigrants who they want to punish because of their harsh historical past.',
+  popularity: 6705.478,
+  poster_path: '/uHA5COgDzcxjpYSHHulrKVl6ByL.jpg',
+  release_date: '2021-06-30',
+  title: 'The Forever Purge',
+  video: false,
+  vote_average: 7.7,
+  vote_count: 320
+}
+{
+  adult: false,
+  backdrop_path: '/vqEjXzWdzPbV2DZ7bk29weDFiDl.jpg',
+  genre_ids: [ 16, 12, 10751, 37 ],
+  id: 637693,
+  original_language: 'en',
+  original_title: 'Spirit Untamed',
+  overview: "Lucky Prescott's life is changed forever when she moves from her home in the city to a small frontier town and befriends a wild mustang named Spirit.",
+  popularity: 717.849,
+  poster_path: '/5cbGVDmRMYVzkq5cItZ7cYlDdDR.jpg',
+  release_date: '2021-05-20',
+  title: 'Spirit Untamed',
+  video: false,
+  vote_average: 7.7,
+  vote_count: 169
+}
+{
+  adult: false,
+  backdrop_path: '/8s4h9friP6Ci3adRGahHARVd76E.jpg',
+  genre_ids: [ 16, 35, 10751, 878 ],
+  id: 379686,
+  original_language: 'en',
+  original_title: 'Space Jam: A New Legacy',
+  overview: "When LeBron and his young son Dom are trapped in a digital space by a rogue A.I., LeBron must get them home safe by leading Bugs, Lola Bunny and the whole gang of notoriously undisciplined Looney Tunes to victory over the A.I.'s digitized champions on the court. It's Tunes versus Goons in the highest-stakes challenge of his life.",
+  popularity: 10021.745,
+  poster_path: '/5bFK5d3mVTAvBCXi5NPWH0tYjKl.jpg',
+  release_date: '2021-07-08',
+  title: 'Space Jam: A New Legacy',
+  video: false,
+  vote_average: 7.9,
+  vote_count: 979
+}
+{
+  adult: false,
+  backdrop_path: '/gX5UrH1TLVVBwI7WxplW43BD6Z1.jpg',
+  genre_ids: [ 16, 35, 12, 10751 ],
+  id: 459151,
+  original_language: 'en',
+  original_title: 'The Boss Baby: Family Business',
+  overview: 'The Templeton brothers — Tim and his Boss Baby little bro Ted — have become adults and drifted away from each other. But a new boss baby with a cutting-edge approach and a can-do attitude is about to bring them together again … and inspire a new family business.',
+  popularity: 4074.324,
+  poster_path: '/5dExO5G2iaaTxYnLIFKLWofDzyI.jpg',
+  release_date: '2021-07-01',
+  title: 'The Boss Baby: Family Business',
+  video: false,
+  vote_average: 7.9,
+  vote_count: 773
+}
+{
+  adult: false,
+  backdrop_path: '/hP7dN2B5ztQgSIN5Qvk63MY4EeO.jpg',
+  genre_ids: [ 99 ],
+  id: 691179,
+  original_language: 'en',
+  original_title: 'Friends: The Reunion',
+  overview: 'The cast of Friends reunites for a once-in-a-lifetime celebration of the hit series, an unforgettable evening filled with iconic memories, uncontrollable laughter, happy tears, and special guests.',
+  popularity: 198.74,
+  poster_path: '/bT3c4TSOP8vBmMoXZRDPTII6eDa.jpg',
+  release_date: '2021-05-27',
+  title: 'Friends: The Reunion',
+  video: false,
+  vote_average: 8.4,
+  vote_count: 539
+}
+{
+  adult: false,
+  backdrop_path: '/1ZNLJkYSfRcPconjUYa5pReoLH9.jpg',
+  genre_ids: [ 99, 10402 ],
+  id: 62717,
+  original_language: 'pt',
+  original_title: 'Loki - Arnaldo Baptista',
+  overview: "Loki brings the trajectory of Arnaldo Baptista from childhood, passing through the most successful phase as leader of the Mutantes, marriage to singer Rita Lee and then separation. He also goes through the depression that devastated his life after the group ended and that led him to attempt suicide, his solo career, rapprochement with his brother and member of the Mutantes, Sérgio Dias, culminating in the band's return in 2006.",
+  popularity: 140.32,
+  poster_path: '/cYl39kCMjP37e39CbJqxWHvf1ez.jpg',
+  release_date: '2008-10-17',
+  title: 'Loki - Arnaldo Baptista',
+  video: false,
+  vote_average: 6.9,
+  vote_count: 9
+}
+{
+  adult: false,
+  backdrop_path: '/aMFl4wOPhJ7NVua6SgU9zIJvFSx.jpg',
+  genre_ids: [ 16, 10751, 35, 12, 10770 ],
+  id: 755812,
+  original_language: 'fr',
+  original_title: 'Miraculous World : New York, les héros unis',
+  overview: 'During a school field trip, Ladybug and Cat Noir meet the American superheroes, whom they have to save from an akumatised super-villain. They discover that Miraculous exist in the United States too.',
+  popularity: 480.782,
+  poster_path: '/19kfvGktytDZInUmpv3WlaHoTxP.jpg',
+  release_date: '2020-09-26',
+  title: 'Miraculous World: New York, United HeroeZ',
+  video: false,
+  vote_average: 8.3,
+  vote_count: 755
+}
+{
+  adult: false,
+  backdrop_path: '/pO1SnM5a1fEsYrFaVZW78Wb0zRJ.jpg',
+  genre_ids: [ 10751, 16, 12, 35, 10770 ],
+  id: 677638,
+  original_language: 'en',
+  original_title: 'We Bare Bears: The Movie',
+  overview: "When Grizz, Panda, and Ice Bear's love of food trucks and viral videos get out of hand, the brothers are now chased away from their home and embark on a trip to Canada, where they can live in peace.",
+  popularity: 134.456,
+  poster_path: '/kPzcvxBwt7kEISB9O4jJEuBn72t.jpg',
+  release_date: '2020-06-30',
+  title: 'We Bare Bears: The Movie',
+  video: false,
+  vote_average: 7.9,
+  vote_count: 667
+}
+{
+  adult: false,
+  backdrop_path: '/kkXMDMRGtuO9cewtFjWNREC74nf.jpg',
+  genre_ids: [ 28, 35, 36, 16, 14 ],
+  id: 739542,
+  original_language: 'en',
+  original_title: 'America: The Motion Picture',
+  overview: 'A chainsaw-wielding George Washington teams with beer-loving bro Sam Adams to take down the Brits in a tongue-in-cheek riff on the American Revolution.',
+  popularity: 817.874,
+  poster_path: '/j0HnLa6FtGcslbqClKOIyvCXfpe.jpg',
+  release_date: '2021-06-30',
+  title: 'America: The Motion Picture',
+  video: false,
+  vote_average: 5.7,
+  vote_count: 72
+}
+{
+  adult: false,
+  backdrop_path: '/9NlswPRK5Kap6KVr59Feah9EBLP.jpg',
+  genre_ids: [ 12, 36, 28 ],
+  id: 631939,
+  original_language: 'en',
+  original_title: 'The Legion',
+  overview: 'Noreno, a half-Roman, is entrusted with the mission of crossing the snowy mountains of Armenia, swarming with Parthian patrols, to seek help for his slowly dying men.',
+  popularity: 186.006,
+  poster_path: '/6ssoBXQOxNhrsGJoM6Tcvm57V79.jpg',
+  release_date: '2020-05-08',
+  title: 'The Legion',
+  video: false,
+  vote_average: 6.4,
+  vote_count: 72
+}
+{
+  adult: false,
+  backdrop_path: '/ok7RdHhVngnwkvKj09tvtOvypG.jpg',
+  genre_ids: [ 80, 18, 53, 9648 ],
+  id: 649409,
+  original_language: 'en',
+  original_title: 'No Sudden Move',
+  overview: "A group of criminals are brought together under mysterious circumstances and have to work together to uncover what's really going on when their simple job goes completely sideways.",
+  popularity: 1313.094,
+  poster_path: '/34BmdJkdvRweC3xJJFlOFQ2IbYc.jpg',
+  release_date: '2021-06-24',
+  title: 'No Sudden Move',
+  video: false,
+  vote_average: 6.7,
+  vote_count: 109
+}
+{
+  adult: false,
+  backdrop_path: '/6viJBbovWxJYavdjPy7UPTLvaOS.jpg',
+  genre_ids: [ 9648, 27 ],
+  id: 591275,
+  original_language: 'en',
+  original_title: 'Fear Street: 1666',
+  overview: "In 1666, a colonial town is gripped by a hysterical witch-hunt that has deadly consequences for centuries to come, and it's up to teenagers in 1994 to finally put an end to their town's curse, before it's too late.",
+  popularity: 1216.269,
+  poster_path: '/rmEPtz3Ufzol2VWUAZYzOFaBio3.jpg',
+  release_date: '2021-07-16',
+  title: 'Fear Street: 1666',
+  video: false,
+  vote_average: 7.6,
+  vote_count: 357
+}
+
+<ul>
+          <%for(var i=0; i<(Object.keys(genreList.genres).length); i++){%>
+          <li class="genre-header">
+            <a href="<%=genreList.genres[i].id%>"></a>
+            <h3 id="cat-text" class="cat-name"><%=genreList.genres[i].name%></h3>
+            
+          </li>
+      </ul>
+<!-- <%for(var i=0; i<(Object.keys(genreList.genres).length); i++){%> -->
+
+    for (var i = 0; i < (Object.keys(genreData.genres).length); i++) {
+            const genreId = genreData.genres[i].id;
+            const findUrl = "https://api.themoviedb.org/3/discover/movie?api_key=" + api_key + "&language=en-US&page=1&with_genres=" + genreId;
+            https.get(findUrl, function(response) {
+                var data;
+                response.on("data", function(hugeChunk) {
+                  if (!data) {
+                    data = hugeChunk;
+                  } else {
+                    data += hugeChunk;
+                  }
+                });
+                response.on("end", function() {
+                    const genreMovieList = JSON.parse(data);
+                  
+            });
+        }
+      });

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>
+    Movie Detail
+  </title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+  <div class="movie-div">
+    <div class="card">
+      <div class="card-top">
+        <img id="backdrop-img" class="card-img-top" src="https://image.tmdb.org/t/p/w185/<%=movieDetail.backdrop_path%>" alt="Card movie image">
+      </div>
+      <div id="movie-body" class="card-body">
+        <h2 id="movie-title" class="card-title"><%=movieDetail.title%></h2>
+        <h4 id="movie-rating">Rating: <%=movieDetail.vote_average%></h4>
+        <img id="front-img" class="card-img-top" src="https://image.tmdb.org/t/p/w185/<%=movieDetail.poster_path%>" alt="Card movie image">
+        <p id="movie-desc" class="card-text"><%=movieDetail.overview%></p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
